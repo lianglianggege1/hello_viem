@@ -1,5 +1,3 @@
-'use client';
-
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { http, WagmiProvider, createConfig } from 'wagmi';
 import { foundry, optimism } from 'wagmi/chains';
